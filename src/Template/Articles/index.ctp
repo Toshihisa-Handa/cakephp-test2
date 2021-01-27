@@ -1,6 +1,8 @@
 <!-- File: src/Template/Articles/index.ctp -->
 
 <h1>記事一覧</h1>
+<!-- ArticlesControllerのaddアクションを呼び出しリンクに遷移する -->
+<?= $this->Html->link('記事の追加', ['action' => 'add']) ?>
 <table>
     <tr>
         <th>タイトル</th>
